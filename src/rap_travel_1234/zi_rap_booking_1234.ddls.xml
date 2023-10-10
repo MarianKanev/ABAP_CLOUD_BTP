@@ -5,7 +5,7 @@
    <DDLS>
     <DDLNAME>ZI_RAP_BOOKING_1234</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DDTEXT>Booking view</DDTEXT>
+    <DDTEXT>Booking BO view</DDTEXT>
     <SOURCE_TYPE>W</SOURCE_TYPE>
    </DDLS>
   </asx:values>
