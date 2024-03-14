@@ -1,10 +1,17 @@
-@AccessControl.authorizationCheck: #CHECK
- @EndUserText.label: 'Booking BO view'
- define view entity ZI_RAP_Booking_1234
-   as select from zrap_abook_1234 as Booking
-
+@AbapCatalog.viewEnhancementCategory: [#NONE]
+@AccessControl.authorizationCheck: #NOT_REQUIRED
+@EndUserText.label: 'Booking View'
+@Metadata.ignorePropagatedAnnotations: true
+@ObjectModel.usageType:{
+    serviceQuality: #X,
+    sizeCategory: #S,
+    dataClass: #MIXED
+}
+define view entity ZI_RAP_Booking_1234
+  as select from zrap_abook_1234 as Booking
+  
    association to parent ZI_RAP_Travel_1234        as _Travel     on  $projection.TravelUUID = _Travel.TravelUUID
-
+   
    association [1..1] to /DMO/I_Customer           as _Customer   on  $projection.CustomerID   = _Customer.CustomerID
    association [1..1] to /DMO/I_Carrier            as _Carrier    on  $projection.CarrierID    = _Carrier.AirlineID
    association [1..1] to /DMO/I_Connection         as _Connection on  $projection.CarrierID    = _Connection.AirlineID
@@ -14,10 +21,8 @@
                                                                   and $projection.FlightDate   = _Flight.FlightDate
    association [0..1] to I_Currency                as _Currency   on $projection.CurrencyCode    = _Currency.Currency    
  {
-   key booking_uuid          as BookingUUID,
-       travel_uuid           as TravelUUID,
-       //Added by Alfa
-       _Travel.TravelID             as TravelID, 
+   key booking_uiid          as BookingUUID,
+       travel_uiid           as TravelUUID,
        booking_id            as BookingID,
        booking_date          as BookingDate,
        customer_id           as CustomerID,
@@ -41,5 +46,4 @@
        _Connection,
        _Flight,
        _Currency
-
  }

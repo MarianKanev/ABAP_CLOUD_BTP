@@ -4,8 +4,6 @@
   <asx:values>
    <DEVC>
     <CTEXT>DEMO - from openSAP ABAP</CTEXT>
-    <COMP_POSID>BC-ABA-LA</COMP_POSID>
-    <COMPONENT>HLB0100065</COMPONENT>
    </DEVC>
   </asx:values>
  </asx:abap>

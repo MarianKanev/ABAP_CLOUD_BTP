@@ -27,13 +27,26 @@
        <TITLE>TESTCLASS</TITLE>
       </item>
       <item>
+       <HREF>/sap/bc/adt/businessservices/testclass</HREF>
+       <REL>http://www.sap.com/categories/testclass</REL>
+       <TYPE>application/vnd.sap.adt.businessservices.testclassv4.v1+xml</TYPE>
+       <TITLE>TESTCLASSV4</TITLE>
+      </item>
+      <item>
        <HREF>/sap/bc/adt/businessservices/semanticversion</HREF>
        <REL>http://www.sap.com/categories/semanticversion</REL>
        <TYPE>application/vnd.sap.adt.businessservices.semanticversion.v1+xml</TYPE>
        <TITLE>SemanticVersion</TITLE>
       </item>
+      <item>
+       <HREF>./zui_mmk_rap_travel_o2_1234</HREF>
+       <REL>http://www.sap.com/adt/relations/source</REL>
+       <TYPE>text/html</TYPE>
+       <TITLE>Landing Page (HTML)</TITLE>
+      </item>
      </LINKS>
      <MASTER_LANGUAGE>EN</MASTER_LANGUAGE>
+     <ABAP_LANGU_VERSION>5</ABAP_LANGU_VERSION>
     </METADATA>
     <CONTENT>
      <BIND_TYPE_IMPL>
@@ -47,6 +60,7 @@
        <SERVICE_CONTENT>
         <item>
          <SERVICE_VERSION>0001</SERVICE_VERSION>
+         <RELEASE_STATE>NOT_RELEASED</RELEASE_STATE>
          <SRVD_REF>
           <URI>/sap/bc/adt/ddic/srvd/sources/zui_mmk_rap_travel_1234</URI>
           <TYPE>SRVD/SRV</TYPE>
@@ -57,8 +71,7 @@
       </item>
      </SERVICES>
     </CONTENT>
-    <PUBLISHED>true</PUBLISHED>
-    <BINDING_CREATED>true</BINDING_CREATED>
+    <RELEASE_SUPPORTED>true</RELEASE_SUPPORTED>
    </SRVB>
   </asx:values>
  </asx:abap>

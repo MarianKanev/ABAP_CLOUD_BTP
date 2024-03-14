@@ -10,7 +10,7 @@
        TravelUUID,
        @Search.defaultSearchElement: true
        BookingID,
-       TravelID, //Added by Alfa
+
        BookingDate,
        @Consumption.valueHelpDefinition: [{ entity : {name: '/DMO/I_Customer', element: 'CustomerID'  } }]
        @ObjectModel.text.element: ['CustomerName']
@@ -35,7 +35,7 @@
        LocalLastChangedAt,
 
        /* associations */
-       _Travel : redirected to parent ZC_RAP_Travel_1234,
+       _Travel : redirected to parent ZC_RAP_TRAVEL_1234,
        _Customer,
        _Carrier,
        _Connection,
