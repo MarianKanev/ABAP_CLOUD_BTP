@@ -5,7 +5,7 @@
    <DDLS>
     <DDLNAME>ZI_SCHEDULE_OSAP1</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DDTEXT>Data Definition Schedule</DDTEXT>
+    <DDTEXT>Schedule Information</DDTEXT>
     <SOURCE_TYPE>W</SOURCE_TYPE>
    </DDLS>
   </asx:values>

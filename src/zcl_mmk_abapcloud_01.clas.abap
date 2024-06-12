@@ -21,7 +21,7 @@ CLASS zcl_mmk_abapcloud_01 IMPLEMENTATION.
     out->write( lt_countries ).
 
     SELECT * FROM I_CurrencyText WHERE Language = @sy-langu INTO TABLE @DATA(lt_currencies).
-    out->write( lt_currencies ).
+    out->write( lt_currencies ). " comment
 
 
 
