@@ -1,4 +1,3 @@
-
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'Data Definition for ZCOURSE_OSAP1'
 define root view entity ZI_COURSE_OSAP1 as select from zcourse_osap1 as Course

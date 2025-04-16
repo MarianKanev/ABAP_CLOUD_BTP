@@ -3,7 +3,7 @@
 @Search.searchable: true
 @Metadata.allowExtensions: true
 define root view entity ZC_RAP_TRAVEL_1234
-  as projection on ZI_RAP_Travel_1234 as Travel
+  as projection on ZI_RAP_TRAVEL_1234 as Travel
 {
   key TravelUUID,
       @Search.defaultSearchElement: true
@@ -36,7 +36,7 @@ define root view entity ZC_RAP_TRAVEL_1234
       CreatedAt,
       LastChangedBy,
       LastChangedAt,
-      LocalLastChangedA,
+      LocalLastChangedAt,
       /* Associations */
       _Agency,
       _Booking : redirected to composition child ZC_RAP_Booking_1234,

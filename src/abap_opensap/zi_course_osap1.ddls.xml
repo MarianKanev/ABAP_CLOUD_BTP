@@ -5,7 +5,7 @@
    <DDLS>
     <DDLNAME>ZI_COURSE_OSAP1</DDLNAME>
     <DDLANGUAGE>E</DDLANGUAGE>
-    <DDTEXT>Course Information</DDTEXT>
+    <DDTEXT>Course information</DDTEXT>
     <SOURCE_TYPE>W</SOURCE_TYPE>
    </DDLS>
   </asx:values>
