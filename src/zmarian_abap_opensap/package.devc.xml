@@ -3,7 +3,7 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <DEVC>
-    <CTEXT>Marian - Test Package</CTEXT>
+    <CTEXT>ZMARIAN_ABAP_OPENSAP</CTEXT>
    </DEVC>
   </asx:values>
  </asx:abap>
