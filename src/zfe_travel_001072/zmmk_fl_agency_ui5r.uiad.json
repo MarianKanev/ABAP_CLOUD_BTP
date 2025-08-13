@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Flight Agency"
+  },
+  "ui5AppDetails": {
+    "appId": "zflightagency"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_86AAFA99C9269F4F864ED605845A109C7ADBD87D_TM",
+    "semanticObject": "flightagency",
+    "action": "maintain",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_86AAFA99C9269F4F864ED605845A109C7ADBD87D_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Flight Agency"
+      }
+    }
+  ]
+}
