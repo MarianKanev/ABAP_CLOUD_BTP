@@ -1,18 +1,37 @@
 @Metadata.layer: #CORE
 
+@UI: {
+    headerInfo: {
+        typeName: 'Travel',
+        typeNamePlural: 'Travels'
+    },
+    presentationVariant: [{
+        sortOrder: [{
+            by: 'LocalLastChangedAt',
+            direction: #DESC
+        }],
+        visualizations: [{
+            type: #AS_LINEITEM
+        }]
+    }]
+}
+
+
 annotate entity ZC_FE_Travel_001072
     with
 
 {
 
   @UI.lineItem: [ { position: 20 } ]
+  @UI.selectionField: [{ position: 10 }]
   AgencyID;
 
   @UI.lineItem: [ { position: 21 } ]
+  @UI.selectionField: [{ position: 20  }]
   CustomerID;
 
   @UI.lineItem: [ { position: 40 } ]
-  BeginDate;
+    BeginDate;
 
   @UI.lineItem: [ { position: 50 } ]
   EndDate;
@@ -24,6 +43,7 @@ annotate entity ZC_FE_Travel_001072
   TotalPrice;
 
   @UI.lineItem: [ { position: 80 } ]
+  @UI.selectionField: [{ position: 30  }]
   OverallStatus;
 
   @UI.lineItem: [ { position: 90 } ]
