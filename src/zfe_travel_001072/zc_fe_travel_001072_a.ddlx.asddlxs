@@ -1,4 +1,4 @@
-@Metadata.layer: #CORE
+@Metadata.layer: #CUSTOMER
 
 @UI: {
     headerInfo: {
@@ -17,13 +17,13 @@
 }
 
 
+
 annotate entity ZC_FE_Travel_001072
-    with
-
+    with 
 {
-
   @UI.lineItem: [ { position: 19 } ]
   @UI.selectionField: [{ position: 5 }]
+  @EndUserText.label: 'Travel_from MetadataExtension_A'
   TravelID;
 
   @UI.lineItem: [ { position: 20 } ]
@@ -34,22 +34,5 @@ annotate entity ZC_FE_Travel_001072
   @UI.selectionField: [{ position: 20  }]
   CustomerID;
 
-  @UI.lineItem: [ { position: 40 } ]
-    BeginDate;
-
-  @UI.lineItem: [ { position: 50 } ]
-  EndDate;
-
-  @UI.lineItem: [ { position: 60 } ]
-  BookingFee;
-
-  @UI.lineItem: [ { position: 70 } ]
-  TotalPrice;
-
-  @UI.lineItem: [ { position: 80 } ]
-  @UI.selectionField: [{ position: 30  }]
-  OverallStatus;
-
-  @UI.lineItem: [ { position: 90 } ]
-  LocalLastChangedAt;
+    
 }

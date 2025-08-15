@@ -3,6 +3,7 @@
 {
 "FROM":
 [
+"/DMO/I_CUSTOMER",
 "ZI_FE_TRAVEL_001072"
 ],
 "ASSOCIATED":
