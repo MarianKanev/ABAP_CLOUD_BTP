@@ -20,15 +20,14 @@ define root view entity ZC_FE_Travel_001072
       @Search.fuzzinessThreshold: 0.90
 
       TravelID,
-      // @EndUserText.label: 'Travel'
-      // @ObjectModel.text.element:  [ 'Description' ]
 
       @EndUserText.label: 'Agency'
       @ObjectModel.text.element: [ '_Agency' ]
+      @Consumption.valueHelpDefinition: [ { entity: { name: '/DMO/I_Agency', element: 'AgencyID' } } ]
 
       AgencyID,
 
-      // @Consumption.valueHelpDefinition: [ { entity: { name: '/DMO/I_Agency', element: 'AgencyID' } } ]
+      @Consumption.valueHelpDefinition: [ { entity: { name: '/DMO/I_Agency', element: 'AgencyID' } } ]
       @EndUserText.label: 'Customer'
       @ObjectModel.text.element: [ 'LastName' ]
 

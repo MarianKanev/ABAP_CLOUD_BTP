@@ -4,6 +4,8 @@
   <asx:values>
    <DEVC>
     <CTEXT>ZMARIAN_RAP_TRAVEL_1234</CTEXT>
+    <LANGUAGE>E</LANGUAGE>
+    <MASTERLANG>E</MASTERLANG>
    </DEVC>
   </asx:values>
  </asx:abap>

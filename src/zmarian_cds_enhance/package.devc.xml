@@ -4,6 +4,8 @@
   <asx:values>
    <DEVC>
     <CTEXT>ZMARIAN_CDS_ENHANCE</CTEXT>
+    <LANGUAGE>E</LANGUAGE>
+    <MASTERLANG>E</MASTERLANG>
    </DEVC>
   </asx:values>
  </asx:abap>

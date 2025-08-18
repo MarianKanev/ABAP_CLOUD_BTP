@@ -4,6 +4,8 @@
   <asx:values>
    <DEVC>
     <CTEXT>ZMARIAN_ABAP_OPENSAP</CTEXT>
+    <LANGUAGE>E</LANGUAGE>
+    <MASTERLANG>E</MASTERLANG>
    </DEVC>
   </asx:values>
  </asx:abap>
