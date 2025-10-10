@@ -1,4 +1,0 @@
-@EndUserText.label: 'Service Definition'
-define service ZMMK_DEF_XXX {
-  expose I_Currency as Currency;
-}
