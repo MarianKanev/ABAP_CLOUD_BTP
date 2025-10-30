@@ -1,0 +1,47 @@
+managed implementation in class ZBP_R_MMK_EMPLOYEE_1 unique;
+strict ( 2 );
+with draft;
+extensible;
+define behavior for ZR_MMK_EMPLOYEE_1 alias Employee
+persistent table ZMMK_EMPLOYEE_1
+extensible
+draft table ZMMK_EMPLYEE_1_D
+etag master LocalLastChanged
+lock master total etag LocalLastChanged
+authorization master( global )
+{
+  field ( mandatory : create )
+   ID;
+
+  field ( readonly )
+   LocalLastChanged;
+
+  field ( readonly : update )
+   ID;
+
+
+  create;
+  update;
+  delete;
+
+  draft action Activate optimized;
+  draft action Discard;
+  draft action Edit;
+  draft action Resume;
+  draft determine action Prepare;
+
+  mapping for ZMMK_EMPLOYEE_1 corresponding extensible
+  {
+    ID = id;
+    Firstname = firstname;
+    Lastname = lastname;
+    Age = age;
+    Postalcode = postalcode;
+    Street = street;
+    City = city;
+    Createdbycreatedby = createdbycreatedby;
+    Changedby = changedby;
+    LocalLastChanged = local_last_changed;
+  }
+
+}
