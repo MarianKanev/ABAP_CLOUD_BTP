@@ -1,0 +1,28 @@
+@Metadata.layer: #CORE
+
+annotate view ZMMK_I_TRAVEL_R_002 with
+
+{
+  @UI.lineItem: [ { position: 10, importance: #HIGH } ]
+  @UI.selectionField: [ { position: 10 } ]
+  TravelID;
+
+  @UI.lineItem: [ { position: 15, importance: #HIGH } ]
+  AgencyID;
+
+  @UI.lineItem: [ { position: 20, importance: #HIGH } ]
+  @UI.selectionField: [ { position: 20 } ]
+  CustomerID;
+
+  @UI.lineItem: [ { position: 30, importance: #HIGH } ]
+  BeginDate;
+
+  @UI.lineItem: [ { position: 40, importance: #HIGH } ]
+  EndDate;
+
+  @UI.lineItem: [ { position: 50, importance: #HIGH } ]
+  TotalPrice;
+
+  @UI.lineItem: [ { position: 60, importance: #HIGH } ]
+  Memo;
+}

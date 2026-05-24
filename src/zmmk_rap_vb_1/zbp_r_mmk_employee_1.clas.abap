@@ -1,8 +1,6 @@
 class ZBP_R_MMK_EMPLOYEE_1 definition
   public
-  abstract
-  final
-  for behavior of ZR_MMK_EMPLOYEE_1 .
+  create private .
 
 public section.
 protected section.

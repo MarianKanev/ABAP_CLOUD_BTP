@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service exposes Travel data'
+define service ZMMK_I_TRAVEL_R_002 {
+  expose ZMMK_I_TRAVEL_R_002 as Travel;
+}
